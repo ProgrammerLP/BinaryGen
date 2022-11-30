@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Binary"
         mc:Ignorable="d"
-        Title="binary2decimal" Height="450" Width="800">
+        Title="binary2decimal" Height="75" Width="275" Topmost="True" WindowStartupLocation="CenterScreen">
     <Grid>
         <ScrollViewer CanContentScroll="True">
             <TextBlock x:Name="TB_deciaml" FontWeight="Bold" FontSize="14" />

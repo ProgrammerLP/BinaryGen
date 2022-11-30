@@ -7,10 +7,11 @@
         mc:Ignorable="d"
         Title="Binary" Height="450" Width="800">
     <Grid>
-        <ScrollViewer Margin="100,0" VerticalAlignment="Center" HorizontalAlignment="Center" CanContentScroll="True">
+        <ScrollViewer Margin="50,0" VerticalAlignment="Center" HorizontalAlignment="Center" CanContentScroll="True">
             <TextBlock TextWrapping="Wrap" x:Name="lbl_result" FontWeight="Bold" FontSize="24" />
         </ScrollViewer>
         <TextBox x:Name="TB_lenght" MaxLength="5" Width="150" Height="30" VerticalContentAlignment="Center" HorizontalAlignment="Right" Margin="30,00" />
         <Button Content="Generator" Width="150" Height="30" x:Name="gen_btn" Click="gen_btn_Click" VerticalAlignment="Bottom" Margin="0,100" />
+        <TextBox x:Name="send_custom_binary" VerticalContentAlignment="Center" Height="30" VerticalAlignment="Bottom" Width="500" MaxLength="50" Margin="30" KeyUp="send_custom_binary_KeyUp" HorizontalAlignment="Right" />
     </Grid>
 </Window>

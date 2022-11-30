@@ -45,5 +45,14 @@ namespace Binary
             //    Console.WriteLine(ex.Message);
             //}
         }
+
+        private void send_custom_binary_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                binary2decimal b2d = new binary2decimal(send_custom_binary.Text);
+                b2d.Show();
+            }
+        }
     }
 }
